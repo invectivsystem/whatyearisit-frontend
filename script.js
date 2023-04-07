@@ -1,7 +1,7 @@
 
 console.log('test script')
 
-fetch('https://whatyearisit-backend-lovat.vercel.app/dates/year')
+fetch('https://whatyearisit-backend-lovat.vercel.app/year')
 	.then(response => response.json())
 	.then(data => {
             console.log(data)
